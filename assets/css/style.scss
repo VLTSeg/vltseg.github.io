@@ -71,8 +71,8 @@ img {
     text-align: center;
 }
 
-/* NAVIGATION : SIDEBAR OR HEADER */
-.nav-banner {
+/* NAV BAR */
+.nav-bar {
     position: fixed;
     top: 0;
     left: 0;
@@ -83,7 +83,7 @@ img {
     display: flex;
     justify-content: center;
 }
-.nav-banner .site-title {
+.nav-bar .site-title {
     display: flex;
     height: 100%;
     padding: 0px 15px;
@@ -92,7 +92,7 @@ img {
     color: white;
     text-decoration: none;
 }
-.nav-banner .site-title:hover, .nav-banner .site-title:focus {
+.nav-bar .site-title:hover, .nav-bar .site-title:focus {
     background-color: var(--accent-color);
 }
 
