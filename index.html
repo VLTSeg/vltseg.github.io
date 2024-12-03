@@ -126,7 +126,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body is-centered has-text-centered">
-      <img src="static/images/Element12.png" style='height: 70%; width: 70%' />
+      <img src="static/images/Element12.png" alt="Sketch of the model's training" style='height: 70%; width: 70%' />
       <h2 class="subtitle has-text-centered">
         Strong but simple: We simply transfer CLIP-based pre-trained weights (1), conduct fine-tuning on two different tasks
         (2) and evaluate the performance across various unseen real-world domains (3)
@@ -174,13 +174,13 @@
       <div class="column is-four-fifths">
         <h2 class="title is-2"> Visual Results</h2>
         <h2 class="title is-5"> Cityscapes→ACDC {EVA-02-CLIP Encoder}</h2>
-        <img src="static/images/0822-supp_cropped_lower.png" alt="MY ALT TEXT"/>
+        <img src="static/images/0822-supp_cropped_lower.png" alt="Qualitative results for Cityscapse to ACDC domain generalization"/>
       </div>
     </div>
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-2"> Comparison of Fine-Tuning for DGSS</h2>
-        <img src="static/images/FT_pre-trainings.png" alt="MY ALT TEXT"/>
+        <img src="static/images/FT_pre-trainings.png" alt="Quantitative results for synthetic to real domain generalization"/>
         <div class="content">
           <p>
             Transfer Learning: Domain Generalization Performance of supervised
@@ -188,13 +188,13 @@
             denotes that ViT-L-14 was used as the encoder. &#x1f512 denotes frozen encoder weights.
           </p>
         </div>
-        <img src="static/images/SOTA_Table.png" alt="MY ALT TEXT"/>
+        <img src="static/images/SOTA_Table.png" alt="Quantitative results on the Cityscapes and ACDC test sets"/>
         <div class="content">
           <p>
             State-of-the-Art performance of VLTSeg on Cityscapes and ACDC Test Set.
           </p>
         </div>
-        <img src="static/images/finetuning_ablation.png" alt="MY ALT TEXT"/>
+        <img src="static/images/finetuning_ablation.png" alt="Graphic results of the ablation study on layer freezing"/>
         <div class="content">
           <p>
             Ablation of freezing encoder layers for the syn-to-real DG performance. Training on GTA5 
